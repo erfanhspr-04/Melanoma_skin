@@ -49,8 +49,7 @@ venv\Scripts\activate # ویندوز
 # نصب وابستگیها ( ۳
 pip install -r requirements.txt
 ```
-** دانلود فایلهای مدل** از بخش ( ۴ [Releases](https://github.com/erfanhspr-04/Melanoma_skin/
-releases)
+** دانلود فایلهای مدل از اینجا: https://github.com/erfanhspr-04/Melanoma_skin/releases
 و قرار دادن آنها در پوشهٔ `saved_models/`.
 ** **:اجرای اپلیکیشن ( ۵
 ```bash
