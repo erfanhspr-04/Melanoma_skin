@@ -1,0 +1,35 @@
+[theme]
+base = "dark"
+primaryColor = "#00d4aa"
+backgroundColor = "#020b18"
+secondaryBackgroundColor = "#041428"
+textColor = "#e2f0ff"
+linkColor = "#00d4aa"
+borderColor = "#0d3a5c"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "large"
+buttonRadius = "full"
+
+font = "'Vazirmatn':https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap"
+headingFont = "'Vazirmatn':https://fonts.googleapis.com/css2?family=Vazirmatn:wght@700;800&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+headingFontSizes = ["2.4rem", "1.8rem", "1.4rem", "1.1rem", "0.95rem", "0.85rem"]
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+linkUnderline = false
+
+greenColor  = "#00d4aa"
+blueColor   = "#38bdf8"
+redColor    = "#f87171"
+orangeColor = "#fb923c"
+violetColor = "#a78bfa"
+
+chartCategoricalColors = ["#00d4aa","#38bdf8","#a78bfa","#fb923c","#f87171","#fbbf24","#34d399"]
+
+[theme.sidebar]
+backgroundColor = "#020e1f"
+secondaryBackgroundColor = "#041428"
+textColor = "#94b8d4"
+borderColor = "#0d3a5c"
+primaryColor = "#00d4aa"

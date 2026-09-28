@@ -1,0 +1,7 @@
+Image,True_Class,Prediction,Confidence
+sample_1,Melanoma,Melanoma,96.84
+sample_2,Melanoma,Melanoma,99.74
+sample_3,Melanoma,Melanoma,99.84
+sample_4,NotMelanoma,NotMelanoma,93.63
+sample_5,NotMelanoma,NotMelanoma,88.45
+sample_6,NotMelanoma,NotMelanoma,78.53

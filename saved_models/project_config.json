@@ -1,0 +1,13 @@
+{
+    "image_size": [
+        224,
+        224
+    ],
+    "class_names": [
+        "Melanoma",
+        "NotMelanoma"
+    ],
+    "efficientnet_gradcam_layer": "block6f_project_conv",
+    "efficientnet_accuracy": 0.9396,
+    "mobilenet_accuracy": 0.9293
+}
