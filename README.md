@@ -74,7 +74,6 @@ python -m streamlit run app.py
 |---|---|---|
 | `01_mobilenet_training.ipynb` | ساخت و آموزش MobileNetV ۱۶ | (یادگیری انتقالی + تنظیم دقیق) 2 |
 | `02_efficientnet_and_gradcam.ipynb` | آموزش EfficientNetB ارزیابی و مقایسه ، 3 ، Grad-CAM، CLAHE
-| و خروجیها | ۸۹
 
 ## 📊 خروجیها
 
