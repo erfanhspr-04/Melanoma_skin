@@ -71,9 +71,9 @@ python -m streamlit run app.py
 
 ## 📓 نوتبوکها
 
-| نوتبوک | موضوع | تعداد سلول |
+| نوتبوک | موضوع |  
 |---|---|---|
-| `01_mobilenet_training.ipynb` | ساخت و آموزش MobileNetV ۱۶ | (یادگیری انتقالی + تنظیم دقیق) 2 |
+| `01_mobilenet_training.ipynb` | ساخت و آموزش MobileNetV ۱۶ | 
 | `02_efficientnet_and_gradcam.ipynb` | آموزش EfficientNetB ارزیابی و مقایسه ، 3 ، Grad-CAM، CLAHE
 
 ## 📊 خروجیها
