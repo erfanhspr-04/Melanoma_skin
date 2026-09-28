@@ -37,29 +37,29 @@ Melanoma_skin/
 ├── LICENSE
 └── README.md
 ```
-## 🚀 نصب و اجرا
+🚀 نصب و اجرا
 
-```bash
-# دریافت کد ( ۱
+# ۱. دریافت کد
 git clone https://github.com/erfanhspr-04/Melanoma_skin.git
 cd Melanoma_skin
-# ساخت محیط مجازی (اختیاری ولی توصیهشده) ( ۲
+
+# ۲. ساخت محیط مجازی (اختیاری ولی توصیه شده)
 python -m venv venv
-venv\Scripts\activate # ویندوز
+venv\Scripts\activate      # ویندوز
 # source venv/bin/activate # لینوکس / مک
-# نصب وابستگیها ( ۳
+
+# ۳. نصب وابستگی‌ها
 pip install -r requirements.txt
-```
-** دانلود فایلهای مدل از اینجا: https://github.com/erfanhspr-04/Melanoma_skin/releases
-و قرار دادن آنها در پوشهٔ `saved_models/`.
-** **:اجرای اپلیکیشن ( ۵
-```bash
+
+
+۴. دانلود مدل: فایل‌های مدل را از بخش Releases گیتهاب دانلود کرده و در پوشهٔ saved_models/ قرار دهید.
+
+۵. اجرای اپلیکیشن:
+
 python -m streamlit run app.py
-```
 
-،سپس در مرورگر، تصویر یک ضایعهٔ پوستی را بارگذاری کن؛ نتیجهٔ طبقهبندی، درصد احتمال
-سطح ریسک و نقشهٔ حرارتی Grad-CAM .نمایش داده میشود
 
+سپس در مرورگر، تصویر یک ضایعهٔ پوستی را بارگذاری کنید؛ نتیجهٔ طبقه‌بندی، درصد احتمال، سطح ریسک و نقشهٔ حرارتی Grad-CAM نمایش داده می‌شود.
 ## 🧠 روش کار
 
 1. **یادگیری انتقالی** — بدنهٔ شبکه با وزن‌های ImageNet بارگذاری و فریز می‌شود؛ فقط سرِ جدید آموزش می‌بیند.
