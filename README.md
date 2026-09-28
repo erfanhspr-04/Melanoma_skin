@@ -36,11 +36,11 @@ Melanoma_skin/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-```
-🚀 نصب و اجرا
+```## 🚀 نصب و اجرا
 
+```bash
 # ۱. دریافت کد
-git clone https://github.com/erfanhspr-04/Melanoma_skin.git
+git clone [https://github.com/erfanhspr-04/Melanoma_skin.git](https://github.com/erfanhspr-04/Melanoma_skin.git)
 cd Melanoma_skin
 
 # ۲. ساخت محیط مجازی (اختیاری ولی توصیه شده)
