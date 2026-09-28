@@ -69,13 +69,6 @@ python -m streamlit run app.py
 توضیحپذیری** — نقشهٔ** . 4 Grad-CAM از گرادیان امتیاز کلاس هدف نسبت به نقشهٔ ویژگی لایهٔ کانولوشنی
 .محاسبه میشود
 
-## 📓 نوتبوکها
-
-| نوتبوک | موضوع |  
-|---|---|---|
-| `01_mobilenet_training.ipynb` | ساخت و آموزش MobileNetV ۱۶ | 
-| `02_efficientnet_and_gradcam.ipynb` | آموزش EfficientNetB ارزیابی و مقایسه ، 3 ، Grad-CAM، CLAHE
-
 ## 📊 خروجیها
 
 - `results/model_comparison.csv` — جدول کامل متریکهای دو مدل
