@@ -73,6 +73,7 @@ Full log: [`results/GradCAM_final_results.csv`](results/GradCAM_final_results.cs
 
 ## 🏗 How it works
 
+```mermaid
 flowchart LR
     A["Dermoscopic image"] --> B["Resize 224x224 &mdash; raw pixels 0-255"]
     B --> C["EfficientNetB3"]
@@ -82,6 +83,7 @@ flowchart LR
     C --> F["Grad-CAM<br/>block6f_project_conv"]
     E --> G["Streamlit app<br/>risk level + PDF report"]
     F --> G
+```
 
 1. **Transfer learning** — ImageNet backbone loaded and frozen; only the new classification head is trained first.
 2. **Fine-tuning** — the last layers of the backbone are unfrozen and retrained with a small learning rate (`5e-5`).
