@@ -11,8 +11,6 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b.svg)](https://streamlit.io/)
 [![Stars](https://img.shields.io/github/stars/erfanhspr-04/Melanoma_skin?style=social)](https://github.com/erfanhspr-04/Melanoma_skin/stargazers)
 
-**English**
-
 </div>
 
 ---
