@@ -962,10 +962,10 @@ def build_pdf(orig_img: Image.Image, cam_img_arr,
             except: pass
         return buf.getvalue()
 
-    except ImportError:
-        buf = io.BytesIO()
-        buf.write(b"%PDF-1.4\n% reportlab not installed\n")
-        return buf.getvalue()
+    except ImportError as exc:
+        raise RuntimeError(
+            "ReportLab is required for PDF generation."
+        ) from exc
 
 
 # ─────────────────────────────────────────────────────────────
