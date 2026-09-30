@@ -783,7 +783,7 @@ def make_gradcam(img_array, model):
     base_model = model.layers[0]
 
     # لایه مورد نظر
-    last_conv_layer_name = "block6a_expand_activation"
+    last_conv_layer_name = "block6f_project_conv"
 
     grad_model = tf.keras.models.Model(
         inputs=base_model.input,
