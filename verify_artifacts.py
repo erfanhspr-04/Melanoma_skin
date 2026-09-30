@@ -4,8 +4,6 @@ from pathlib import Path
 from tensorflow.keras.models import load_model
 MODEL_DIR = Path("saved_models")
 MODELS = ["EfficientNetB3_final.keras", "MobileNetV2_final.keras"]
-HISTORIES = ["history_efficient_transfer.pkl", "history_efficient_ft.pkl",
-"history_mobile.pkl", "history_mobile_ft.pkl"]
 def main() -> None:
 print("=== ("=== بررسی مدلها
 for name in MODELS:
