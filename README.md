@@ -150,7 +150,7 @@ Melanoma_skin/
 ## ⚙️ Reproducibility notes
 
 - **Environment:** TensorFlow 2.21 on **CPU only** (no CUDA), so the epoch counts were deliberately kept modest (5 transfer + 5 fine-tuning epochs per model); the full run takes a few hours rather than minutes.
-- **Data pipeline:** `image_dataset_from_directory` → `cache()` → `prefetch(AUTOTUNE)`; the hidden `.ipynb_checkpoints` folder is removed so image counts stay exact.
+- **Data pipeline:** `image_dataset_from_directory` → `prefetch(AUTOTUNE)`; the hidden `.ipynb_checkpoints` folder is removed so image counts stay exact.
 - **Data location (expected by the notebooks):** `Dataset/train/{Melanoma,NotMelanoma}` and `Dataset/valid/{Melanoma,NotMelanoma}`.
 
 ## ⚠️ Limitations
